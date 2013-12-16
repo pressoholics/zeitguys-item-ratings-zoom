@@ -42,6 +42,7 @@ td.column-zg-zoom-icon {
 }
 
 .zg-zoom-tooltip img {
+	display: none;
 	width: 100%;
 }
 
@@ -56,4 +57,10 @@ ul.zg-zoom-rating-items {
 ul.zg-zoom-rating-items li {
 	float: left;
 	padding: 5px 10px;
+}
+
+.zg-zoom-loading {
+	background: url('../images/ajax-loader.gif') no-repeat 180px 80px;
+	height: 200px;
+	width: 400px;
 }
